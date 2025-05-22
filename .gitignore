@@ -1,0 +1,28 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependencies
+node_modules
+/dist
+
+# testing
+/coverage
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Temporary files
+*.swp
+*.swo
+*.cache
+
+# IDE and OS files
+.DS_Store
+.vscode/
